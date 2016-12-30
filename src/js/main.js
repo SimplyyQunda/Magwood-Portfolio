@@ -8,6 +8,7 @@ import { FolioDetailsController } from './controller/folioDetails';
 import { HomeController } from './controller/home';
 import { PortfolioController } from './controller/portfolio';
 import { ResumeController } from './controller/resume';
+import { allPortfolio } from './folioarray';
 
 
 import 'angular-ui-router';
@@ -21,3 +22,4 @@ angular
   .controller('HomeController', HomeController)
   .controller('PortfolioController', PortfolioController)
   .controller('ResumeController', ResumeController)
+  .constant('allPortfolio', allPortfolio);

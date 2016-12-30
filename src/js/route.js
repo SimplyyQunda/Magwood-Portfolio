@@ -6,6 +6,31 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 	      controller: 'LayoutController as layout'
 	    })
 
+	    // .state('root.home', {
+	    //   url: '/home',
+	    //   templateUrl: 'templates/home.tpl.html',
+	    //   controller: 'HomeController as home'
+	    // })
+
+	    // .state('root.about', {
+	    // 	url:'/about',
+	    // 	templateUrl: 'templates/about.tpl.html',
+	    // 	controller: 'AboutController as about'
+	    // })
+
+	    // .state('root.portfolio', {
+	    // 	url:'/portfolio',
+	    // 	templateUrl: 'templates/portfolio.tpl.html',
+	    // 	controller: 'PortfolioController as portfolio'
+	    // })
+
+	    // .state('root.contact', {
+	    // 	url:'/contact',
+	    // 	templateUrl: 'templates/contact.tpl.html',
+	    // 	controller: 'ContactController as contact'
+	    // })
+
+
 		.state('root.home', {
 		    url: '#!/home',
 		    views: {
@@ -13,15 +38,15 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 		        templateUrl: 'templates/home.tpl.html',
 		        controller: 'HomeController as home'
 		    }, 'about@root.home': {
-		        templateUrl: 'js/templates/about.tpl.html',
+		        templateUrl: 'templates/about.tpl.html',
 		        controller: 'AboutController as about'
 		      },
 		      'portfolio@root.home': {
-		        templateUrl: 'js/templates/portfolio.tpl.html',
+		        templateUrl: 'templates/portfolio.tpl.html',
 		        controller: 'PortfolioController as portfolio'
 		      },
 		      'contact@root.home': {
-		        templateUrl: 'js/templates/contact.tpl.html',
+		        templateUrl: 'templates/contact.tpl.html',
 		        controller: 'ContactController as contact'
 		      }
 		    }
