@@ -39,15 +39,15 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 		        controller: 'HomeController as home'
 		    }, 'about@root.home': {
 		        templateUrl: 'templates/about.tpl.html',
-		        controller: 'AboutController as about'
+		        controller: 'HomeController as home'
 		      },
 		      'portfolio@root.home': {
 		        templateUrl: 'templates/portfolio.tpl.html',
-		        controller: 'PortfolioController as portfolio'
+		        controller: 'HomeController as home'
 		      },
 		      'contact@root.home': {
 		        templateUrl: 'templates/contact.tpl.html',
-		        controller: 'ContactController as contact'
+		        controller: 'HomeController as home'
 		      }
 		    }
 		})
