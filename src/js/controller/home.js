@@ -7,4 +7,5 @@ vm.all = allPortfolio;
 console.log (vm.all)	
 }
 
+HomeController.$inject = ['allPortfolio']  
 export { HomeController };

@@ -32,7 +32,7 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 
 
 		.state('root.home', {
-		    url: '#!/home',
+		    url: '/home',
 		    views: {
 		      '' : {
 		        templateUrl: 'templates/home.tpl.html',
