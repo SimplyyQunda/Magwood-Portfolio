@@ -7,13 +7,14 @@ let vm = this;
 vm.all = allPortfolio;
 vm.scrollToTop = scrollToTop;
 vm.id = $stateParams.id;
+// vm.top = top;
 
 // console.log (vm.all)	
 
 
  	function scrollTo (className) {
  		$('body').animate({
-	  		scrollTop: $(className).offset().top
+	  		scrollTop: $(className).offset()
 	  	}, 900);
 	  	console.log('clicked')
 
@@ -21,7 +22,7 @@ vm.id = $stateParams.id;
 
 	function scrollToTop (className) {
 	  	$('body').animate({
-	  		scrollTop: $(className).offset().top
+	  		scrollTop: $(className).offset()
 	  	}, 900);
 	  	console.log('clicked')
 	  }

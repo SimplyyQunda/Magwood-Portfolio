@@ -55,7 +55,7 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 		.state('root.resume', {
 	    	url:'/resume',
 	    	templateUrl: 'templates/resume.tpl.html',
-	    	controller: 'ResumeController as resume'
+	    	controller: 'HomeController as home'
 	    })
 	   
 
