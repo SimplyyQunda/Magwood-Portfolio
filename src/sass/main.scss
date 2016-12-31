@@ -31,3 +31,100 @@
 // .social-media{
 // 	float:right;
 // }
+
+// About Section
+
+// .aboutMe {
+//   height: 100%;
+//   width: 100%;
+//   background-color: rgba(106, 127, 121, .9);
+//   overflow: hidden;
+//   position: relative;
+//   margin-top: 114px;
+
+//   .about {
+//     overflow: hidden;
+//     width: 75%;
+//     margin: auto;
+//   }
+
+//   h3 {
+//     color: white;
+//     font-size: 88px;
+
+//     // .fa {
+//     //   margin-left: 736px;
+//     // }
+//   }
+
+//   .aboutInfo {
+//     overflow: hidden;
+//   }
+
+//   p {
+//     color: white;
+//     margin: auto;
+//     font-family: 'Julius Sans One', sans-serif;
+//     font-size: 1.5em;
+//     text-align: center;
+//   }
+
+//   .me-image {
+//     overflow: hidden;
+//     height: 20em;
+//     width: 20em;
+//     border-radius: 50%;
+//     margin: 3em auto;
+//     border: .1em solid blue;
+//   }
+   
+// }
+
+.aboutMe {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(106, 127, 121, 0.9);
+  overflow: hidden;
+  position: relative; 
+  margin-top: 114px;
+}
+  .aboutMe .about {
+    overflow: hidden;
+    width: 75%;
+    margin: auto; 
+}
+  .aboutMe h3 {
+    color: #FBF7E4;
+    font-size: 88px; 
+    text-align: center;
+}
+    .aboutMe h3 .fa {
+      font-size: .5em;
+      position: absolute;
+      top: .5em;
+      right: .5em;
+      opacity: .6;
+      cursor: pointer; 
+  }
+      .aboutMe h3 .fa:hover {
+        opacity: .9; 
+    }
+  .aboutMe .aboutInfo {
+    overflow: hidden; 
+}
+  .aboutMe p {
+    color: #FBF7E4;
+    margin: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5em;
+    text-align: center; 
+}
+  .aboutMe .me-image {
+    overflow: hidden;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    margin: 3em auto;
+    border: 0.1em solid #6A7F79; 
+}
+ 
