@@ -1,8 +1,21 @@
-<div class="main-content">
+<!-- <div class="myWork">
 
   <div class="folioDetails">
     <div class="folioTable" ng-repeat="all in home.all">
-      <div class="card is-fullwidth">
+      <div class="card-content has-text-centered">
+          <h1 class="title">{{all.projName}}</h1>
+          <div class="content">
+            {{all.projTask}}
+          </div>
+            <p class="card-header-title">
+              <img class= "media" src="{{all.thumbnail}}">
+            </p>
+        </div>
+            <p class="card-header-title">
+              <img class= "media-object" src="{{all.thumbnail}}">
+            </p> -->
+<!--           </header>
+
           <header class="card-header">
             <div class="revealDesc">
               <p>{{all.projDescription}}</p>
@@ -14,15 +27,7 @@
               <p> CSS Tools: {{all.cssTool}}</p>
             </div>
 
-            <p class="card-header-title">
-              <img class= "media-object" src="{{all.thumbnail}}">
-            </p>
-          </header>
-        <div class="card-content has-text-centered">
-          <h1 class="title">{{all.projName}}</h1>
-          <div class="content">
-            {{all.projTask}}
-          </div>
+
         </div>
         <footer class="card-footer">
           <a href="{{all.projUrl}}" class="card-footer-item">Demo</a>
@@ -33,3 +38,67 @@
   </div>
 
 </div>
+ -->
+<div class="myWork">
+  <div class="folioContent">
+    <div class="folioTitle" ng-repeat="all in home.all">
+      <section id="portfolio">
+        <div class="row">
+          <div class="twelve columns collapsed">
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+              <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal" title="">
+                       <img alt="" src="{{all.thumbnail}}">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+                         <h5>{{all.projName}}</h5>
+                             <p>{{all.projTask}}</p>
+                      </div>
+                       </div>
+                       <div class="link-icon"><i class="fa fa-hand-o-up fa-2x"></i></div>
+                    </a>
+                 </div>
+             </div> <!-- item end -->     
+            </div> <!-- portfolio-wrapper end -->
+          </div> <!-- twelve columns end -->
+        </div> <!-- row End -->
+      </section> <!-- Portfolio Section End-->
+
+ <!-- Modal Popup
+      =============================================== -->
+
+      <div id="modal" class="popup-modal mfp-hide">
+
+      <img class="scale-with-grid" src="{{all.thumbnail}}" alt="" />
+
+      <div class="description-box">
+        <h4>Description</h4>
+         <p>{{all.projDescription}}</p>
+        <br> 
+        <h4>Front-End Tools</h4>
+         <p>{{all.FrontEndTool}}</p>
+        <br> 
+        <h4>Back-End Tools</h4>
+         <p>{{all.backendTool}}</p>
+        <br>
+        <h4>CSS Tools</h4>
+         <p>{{all.cssTool}}</p>
+           
+      </div>
+
+        <div class="link-box">
+           <a href="{{all.projUrl}}" class="button card-footer-item">Demo</a>
+           <a href="{{all.githubUrl}}" class="button card-footer-item">Code</a>
+           <a class="popup-modal-dismiss button btn-close">Close</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
