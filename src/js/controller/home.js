@@ -7,6 +7,7 @@ let vm = this;
 vm.all = allPortfolio;
 vm.scrollToTop = scrollToTop;
 vm.id = $stateParams.id;
+vm.magnificPopup = magnificPopup;
 // vm.top = top;
 
 // console.log (vm.all)	
@@ -26,6 +27,25 @@ vm.id = $stateParams.id;
 	  	}, 900);
 	  	console.log('clicked')
 	  }
+
+	  function magnificPopup() {
+	  	
+	  	 $('.item-wrap a').magnificPopup({
+
+       type:'inline',
+       fixedContentPos: false,
+       removalDelay: 200,
+       showCloseBtn: false,
+       mainClass: 'mfp-fade'
+
+    });
+
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+    		e.preventDefault();
+    		$.magnificPopup.close();
+    });
+	  }
+	
 
 }
 

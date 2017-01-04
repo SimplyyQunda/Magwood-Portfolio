@@ -4,7 +4,7 @@ const allPortfolio = [
 	  id: 0,
       projName: 'PinPoint',
       projTask: 'Help Youtube Users and Creators organize channels with custom categories',
-      projDescription: 'Typical everyone goes on YouTube at less once or consistently. As we all know a typical search on youtube is you have topic and you search it; then Youtube gives back thousands of results. PinPoint consist of custom categories where you can add your favorite channel rated by PinPoints users. Speaking of user, your allow to create your on profile and you can subscribe to your favorite category.',
+      projDescription: 'Typically everyone goes on YouTube at less once or consistently. As we all know a typical search on youtube is you have topic and you search it; then Youtube gives back thousands of results. PinPoint consist of custom categories where you can add your favorite channel rated by PinPoints users. Speaking of user, your allow to create your on profile and you can subscribe to your favorite category.',
       FrontEndTool: 'AngularJS, JQuery',
       backendTool: 'AdonisJS',
       cssTool: 'SASS, Bulma',
