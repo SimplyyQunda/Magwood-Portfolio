@@ -13,8 +13,8 @@
         </div>
             <p class="card-header-title">
               <img class= "media-object" src="{{all.thumbnail}}">
-            </p> -->
-<!--           </header>
+            </p>
+          </header>
 
           <header class="card-header">
             <div class="revealDesc">
@@ -37,16 +37,75 @@
     </div>
   </div>
 
-</div>
- -->
+</div> -->
+
 <div class="myWork">
+
+  <div class="folioDetails">
+    <div class="folioTable" ng-repeat="all in home.all">
+      <div class="card is-fullwidth">
+          <header class="card-header">
+            <div class="revealDesc ">
+              <p>{{all.projDescription}}</p>
+              <br>
+              <p>Front-End Tools: {{all.FrontEndTool}}</p>
+              <br>
+              <p>Back-End Tools: {{all.backendTool}}</p>
+              <br>
+              <p> CSS Tools: {{all.cssTool}}</p>
+              <footer class="card-footer">
+                <a href="{{all.projUrl}}" class="card-footer-item">Demo</a>
+                <a href="{{all.githubUrl}}" class="card-footer-item">Code</a>
+              </footer>
+            </div>
+
+            <p class="card-header-title">
+              <img class= "media" src="{{all.thumbnail}}">
+            </p>
+          </header>
+        <div class="card-content has-text-centered">
+          <h1 class="title">{{all.projName}}</h1>
+          <div class="content">
+            {{all.projTask}}
+          </div>
+        </div>
+        <!-- <footer class="card-footer">
+          <a href="{{all.projUrl}}" class="card-footer-item">Demo</a>
+          <a href="{{all.githubUrl}}" class="card-footer-item">Code</a>
+        </footer> -->
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ <!-- <h3>MY WORK<i class="fa fa-angle-double-up" ng-click="scrollToTop('header')"></i></h3>
+  <div class="portfolio-container">
+    <ul>
+      <li class="portfolio-item" ng-repeat="all in home.all">
+        <a href="#!/{{all.id}}" ng-click="remove()"><div class="proj-image">
+          <img ng-src="{{all.thumbnail }}">
+          <div class="overlay" class="small-block-grid-3">
+            <h5>{{ all.projName }}</h5>
+            <p>{{ all.projTask }}</p>
+          </div>
+        </div></a>
+      </li>
+    </ul>
+
+
+  </div> -->
+<!-- =================================================== -->
+
+
+<!-- <div class="myWork">
   <div class="folioContent">
     <div class="folioTitle" ng-repeat="all in home.all">
       <section id="portfolio">
         <div class="row">
-          <div class="twelve columns collapsed">
+          <div class="twelve columns collapsed"> -->
             <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+            <!-- <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
               <div class="columns portfolio-item">
                  <div class="item-wrap">
 
@@ -60,17 +119,17 @@
                        </div>
                        <div class="link-icon"><i class="fa fa-hand-o-up fa-2x"></i></div>
                     </a>
-                 </div>
-             </div> <!-- item end -->     
-            </div> <!-- portfolio-wrapper end -->
-          </div> <!-- twelve columns end -->
-        </div> <!-- row End -->
-      </section> <!-- Portfolio Section End-->
+                 </div> -->
+        <!--      </div> 
+            </div> 
+          </div> 
+        </div> 
+      </section>  -->
 
  <!-- Modal Popup
       =============================================== -->
 
-      <div id="modal" class="popup-modal mfp-hide">
+      <!-- <div id="modal" class="popup-modal mfp-hide">
 
       <img class="scale-with-grid" src="{{all.thumbnail}}" alt="" />
 
@@ -101,4 +160,4 @@
   </div>
 </div>
 
-
+ -->
