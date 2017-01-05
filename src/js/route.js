@@ -5,32 +5,6 @@ function routerConfig ($stateProvider, $urlRouterProvider){
 	      templateUrl: 'templates/layout.tpl.html',
 	      controller: 'LayoutController as layout'
 	    })
-
-	    // .state('root.home', {
-	    //   url: '/home',
-	    //   templateUrl: 'templates/home.tpl.html',
-	    //   controller: 'HomeController as home'
-	    // })
-
-	    // .state('root.about', {
-	    // 	url:'/about',
-	    // 	templateUrl: 'templates/about.tpl.html',
-	    // 	controller: 'AboutController as about'
-	    // })
-
-	    // .state('root.portfolio', {
-	    // 	url:'/portfolio',
-	    // 	templateUrl: 'templates/portfolio.tpl.html',
-	    // 	controller: 'PortfolioController as portfolio'
-	    // })
-
-	    // .state('root.contact', {
-	    // 	url:'/contact',
-	    // 	templateUrl: 'templates/contact.tpl.html',
-	    // 	controller: 'ContactController as contact'
-	    // })
-
-
 		.state('root.home', {
 		    url: '/home',
 		    views: {

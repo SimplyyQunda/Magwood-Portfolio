@@ -92,7 +92,6 @@
   background-color: lightgrey;
   opacity: .9;
   width: 372px;
-  // height: 475px;
   float: left;
   padding: 3%;
   font-family: 'Julius Sans One', sans-serif;
@@ -104,9 +103,6 @@
 
 }
 
-.folioDetails {
-  // margin-left: 4%;
-}
 .revealDesc {
   visibility: hidden;
   z-index: 2;
@@ -135,79 +131,10 @@
 	color: brown;
 }
 
-// .folioTable:hover .revealDesc {
-//   background-color: rgba(255,255,255,0.9);
-//   bottom: 0;
-// }
-
- // ================================
-
-//  .myWork{
-//   height: 100%;
-//   width: 100%;
-//   background-color: rgba(210,180,140, 0.7);
-//   overflow: hidden;
-//   position: relative; 
-//   margin-top: 114px;
-//  }
-
-// .media{
-//   position: absolute;
-//   display: inline-block;
-//     visibility: hidden;
-//     z-index: 2;
-//     background-color: gray;
-//     opacity: .95;
-//     cursor: pointer;
-//     color: white;
-//     padding: 2%;
-//     font-size: 22px;
-//     width: 345px;
-//     height: 387px;
-//     overflow: auto;
-//     font-family: 'Julius Sans One', sans-serif;
-// }
-
-
-// .media{
-//     width: 470px;
-//     height: 413px;
-//     border-style: solid;
-// }    
-
-// #portfolio {
-//    background: url(../images/bg-3.jpg) no-repeat fixed center center / cover;
-//    padding-top: 90px;
-//    padding-bottom: 60px;
-// }
-// #portfolio h1 {
-//    letter-spacing: 1px;
-//    margin-bottom: 60px;
-//    color: #fff;
-//    border-color: #fff;
-// }
-
-// #portfolio h1:hover {
-//    border-color: #ddd;
-// }
-
-// #portfolio .section-title:after {
-//   background: transparent;
-//   content: "\f0b1";
-//   color: #fff;
-// }
-
-
-// .btn-close {
-//   background: #ed5565;
-// }
-
-
-
-
 /* -------------------------------------------------------------*?
 // Resume Section //
 /* -------------------------------------------------------------*/
+
 i{
 	margin-right:20px;
 	color:#FBF7E4;
@@ -215,180 +142,208 @@ i{
 }
 
 .resumeBody{
-  height: 100%;
-  width: 100%;
-  background-color: rgba(106, 127, 121, 0.9);
-  color:#FBF7E4;
-  overflow: hidden;
-  position: relative;
-  margin-top: 114px;
-  font-family: 'Julius Sans One', sans-serif;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(106, 127, 121, 0.9);
+	color:#FBF7E4;
+	overflow: hidden;
+	position: relative;
+	margin-top: 114px;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 .resume-wrapper ul {
-  list-style: disc; }
+	list-style: disc; 
+}
 
 .resume-wrapper .resume-header {
-  background: none;
-  // background-color: #fff;
-  box-shadow: 0px 0.5px 2px #B0B0A3; }
-  .resume-wrapper .resume-header .innerheader {
-    margin-bottom: 0;
-    margin-top: 0; }
-    .resume-wrapper .resume-header .innerheader .logo {
-      float: none;
-      width: 100%;
-      overflow: hidden;
-      text-align: center; }
-      .resume-wrapper .resume-header .innerheader .logo h1 {
-        font-size: 4em;
-         color:#FBF7E4;
-         }
-    .resume-wrapper .resume-header .innerheader .rightheader {
-      float: none;
-      width: 100%;
-      text-align: center;
-      margin: 0; }
-      .resume-wrapper .resume-header .innerheader .rightheader nav {
-        float: none;
-        text-align: center;
-        margin: auto; }
-      .resume-wrapper .resume-header .innerheader .rightheader button {
-        display: block;
-        // background-color: #fff;
-        color:#FBF7E4;
-        background-color: rgba(106, 127, 121, 0.9);
-        border: 1px solid #B0B0A3;
-        border-radius: 4px;
-        color: #B0B0A3;
-        position: absolute;
-        top: 10px;
-        right: 10px; }
-        .resume-wrapper .resume-header .innerheader .rightheader button .fa {
-          margin-right: 1em; }
-        .resume-wrapper .resume-header .innerheader .rightheader button:hover {
-          // background-color: #555555;
-          color: #FAFAFA;
-          border: 1px solid #555555;
-          border-radius: 4px; }
+	background: none;
+	box-shadow: 0px 0.5px 2px #B0B0A3; 
+}
+.resume-wrapper .resume-header .innerheader {
+	margin-bottom: 0;
+	margin-top: 0; 
+}
+.resume-wrapper .resume-header .innerheader .logo {
+	float: none;
+	width: 100%;
+	overflow: hidden;
+	text-align: center; 
+}
+.resume-wrapper .resume-header .innerheader .logo h1 {
+	font-size: 4em;
+	color:#FBF7E4;
+}
+.resume-wrapper .resume-header .innerheader .rightheader {
+	float: none;
+	width: 100%;
+	text-align: center;
+	margin: 0; 
+}
+.resume-wrapper .resume-header .innerheader .rightheader nav {
+	float: none;
+	text-align: center;
+	margin: auto; 
+}
+.resume-wrapper .resume-header .innerheader .rightheader button {
+	display: block;
+	color:#FBF7E4;
+	background-color: rgba(106, 127, 121, 0.9);
+	border: 1px solid #B0B0A3;
+	border-radius: 4px;
+	color: #B0B0A3;
+	position: absolute;
+	top: 10px;
+	right: 10px; 
+}
+.resume-wrapper .resume-header .innerheader .rightheader button .fa {
+	margin-right: 1em; 
+}
+.resume-wrapper .resume-header .innerheader .rightheader button:hover {
+	color: #FAFAFA;
+	border: 1px solid #555555;
+	border-radius: 4px; 
+}
 
 .resume-wrapper .resume-content {
-  padding-top: 1em;
-  width: 100%;
-  clear: both; }
-  .resume-wrapper .resume-content .inner-content {
-    width: 80%;
-    margin: auto; }
-    .resume-wrapper .resume-content .inner-content p {
-      line-height: 170%; }
-    .resume-wrapper .resume-content .inner-content h4 {
-      font-size: 3em;
-      font-family: "Playfair Display", serif; }
-    .resume-wrapper .resume-content .inner-content .about p {
-      // background-color: #fff;
-      -webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
-      -moz-box-shadow: 0px 0.5px 2px #B0B0A3;
-      -o-box-shadow: 0px 0.5px 2px #B0B0A3;
-      box-shadow: 0px 0.5px 2px #B0B0A3;
-      padding: 1em; }
-    .resume-wrapper .resume-content .inner-content .skills {
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto; }
-      .resume-wrapper .resume-content .inner-content .skills::after {
-        clear: both;
-        content: "";
-        display: table; }
-      .resume-wrapper .resume-content .inner-content .skills .skill-box {
-        // background-color: #fff;
-        -webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
-        -moz-box-shadow: 0px 0.5px 2px #B0B0A3;
-        -o-box-shadow: 0px 0.5px 2px #B0B0A3;
-        box-shadow: 0px 0.5px 2px #B0B0A3;
-        padding: 1em;
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 23.23176%; }
-        .resume-wrapper .resume-content .inner-content .skills .skill-box:last-child {
-          margin-right: 0; }
-    .resume-wrapper .resume-content .inner-content .previous-experience .experience-name {
-      display: none; }
-    .resume-wrapper .resume-content .inner-content .previous-experience .experience-box {
-      overflow: hidden;
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      // background-color: #fff;
-      -webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
-      -moz-box-shadow: 0px 0.5px 2px #B0B0A3;
-      -o-box-shadow: 0px 0.5px 2px #B0B0A3;
-      box-shadow: 0px 0.5px 2px #B0B0A3;
-      padding: 1em;
-      margin: 2em 0; }
-      .resume-wrapper .resume-content .inner-content .previous-experience .experience-box::after {
-        clear: both;
-        content: "";
-        display: table; }
-      .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-logo {
-        overflow: hidden;
-        height: 15em;
-        float: left;
-        width: 35%; }
-        .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-logo img {
-          height: 100%;
-          width: auto; }
-      .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .descriptions-left {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 40.29137%;
-        float: left;
-        width: 60%;
-        padding: 2em; }
-        .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .descriptions-left:last-child {
-          margin-right: 0; }
-      .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description {
-        width: 65%;
-        overflow: hidden;
-        padding: 2em; }
-        .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right {
-          overflow: hidden; }
-          .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right ul {
-            margin-left: 2em; }
-          .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list {
-            list-style: none; }
-            .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list p, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list p {
-              margin: .5em; }
-            .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list span, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list span {
-              font-weight: 900;
-              font-size: 1.3em; }
-  .resume-wrapper .resume-content .education .education-box {
-    overflow: hidden;
-    // background-color: #fff;
-    -webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
-    -moz-box-shadow: 0px 0.5px 2px #B0B0A3;
-    -o-box-shadow: 0px 0.5px 2px #B0B0A3;
-    box-shadow: 0px 0.5px 2px #B0B0A3;
-    padding: 1em;
-    margin: 2em 0; }
-    .resume-wrapper .resume-content .education .education-box p {
-      margin: .5em; }
+	padding-top: 1em;
+	width: 100%;
+	clear: both; 
+}
+.resume-wrapper .resume-content .inner-content {
+	width: 80%;
+	margin: auto; 
+}
+.resume-wrapper .resume-content .inner-content p {
+	line-height: 170%; 
+}
+.resume-wrapper .resume-content .inner-content h4 {
+	font-size: 3em;
+	font-family: 'Julius Sans One', sans-serif;
+}
+.resume-wrapper .resume-content .inner-content .about p {
+	-webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-moz-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-o-box-shadow: 0px 0.5px 2px #B0B0A3;
+	box-shadow: 0px 0.5px 2px #B0B0A3;
+	padding: 1em; 
+}
+.resume-wrapper .resume-content .inner-content .skills {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.resume-wrapper .resume-content .inner-content .skills::after {
+	clear: both;
+	content: "";
+	display: table; 
+}
+.resume-wrapper .resume-content .inner-content .skills .skill-box {
+	-webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-moz-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-o-box-shadow: 0px 0.5px 2px #B0B0A3;
+	box-shadow: 0px 0.5px 2px #B0B0A3;
+	padding: 1em;
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 23.23176%; 
+}
+.resume-wrapper .resume-content .inner-content .skills .skill-box:last-child {
+	margin-right: 0; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-name {
+	display: none; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box {
+	overflow: hidden;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-moz-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-o-box-shadow: 0px 0.5px 2px #B0B0A3;
+	box-shadow: 0px 0.5px 2px #B0B0A3;
+	padding: 1em;
+	margin: 2em 0; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box::after {
+	clear: both;
+	content: "";
+	display: table; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-logo {
+	overflow: hidden;
+	height: 15em;
+	float: left;
+	width: 35%; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-logo img {
+	height: 100%;
+	width: auto; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .descriptions-left {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 40.29137%;
+	float: left;
+	width: 60%;
+	padding: 2em; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .descriptions-left:last-child {
+	margin-right: 0; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description {
+	width: 65%;
+	overflow: hidden;
+	padding: 2em; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right {
+	overflow: hidden; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right ul {
+	margin-left: 2em; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list {
+	list-style: none; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list p, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list p {
+	margin: .5em; 
+}
+.resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .iron-yard-list span, .resume-wrapper .resume-content .inner-content .previous-experience .experience-box .experience-description .descriptions-right .skills-list span {
+	font-weight: 900;
+	font-size: 1.3em; 
+}
+.resume-wrapper .resume-content .education .education-box {
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-moz-box-shadow: 0px 0.5px 2px #B0B0A3;
+	-o-box-shadow: 0px 0.5px 2px #B0B0A3;
+	box-shadow: 0px 0.5px 2px #B0B0A3;
+	padding: 1em;
+	margin: 2em 0; 
+}
+.resume-wrapper .resume-content .education .education-box p {
+	margin: .5em; 
+}
 
 .project-link {
-  font-size: 1.3em; }
+	font-size: 1.3em; 
+}
 
-/* CONTACT ME SECTION
---------------------- */
+/* -------------------------------------------------------------*?
+// Contact Me Section //
+/* -------------------------------------------------------------*/
 
 .contact-me-section{
 	height: 100%;
-  width: 100%;
-  background-color: rgba(106, 127, 121, 0.9);
-  overflow: hidden;
-  position: relative; 
-  margin-top: 114px;
- }
+	width: 100%;
+	background-color: rgba(106, 127, 121, 0.9);
+	overflow: hidden;
+	position: relative; 
+	margin-top: 114px;
+}
  
  .contact-me-section .contact-info {
     overflow: hidden;
@@ -402,110 +357,69 @@ i{
     font-family: 'Julius Sans One', sans-serif;
     margin-right: 380px;
 }
-    .contact-me-section h3 .fa {
-      font-size: .5em;
-      position: absolute;
-      top: .5em;
-      right: .5em;
-      opacity: .6;
-      cursor: pointer; 
-  }
-      .contact-me-section h3 .fa:hover {
-        opacity: .9; 
-    }
+.contact-me-section h3 .fa {
+	font-size: .5em;
+	position: absolute;
+	top: .5em;
+	right: .5em;
+	opacity: .6;
+	cursor: pointer; 
+}
+  .contact-me-section h3 .fa:hover {
+    opacity: .9; 
+}
 
 .contact {
-  overflow: hidden;
-  // background-color: rgba(106, 127, 121, 0.9);
-  // background-size: cover;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  max-height: 100vh; }
-  .contact h3 {
-    color: #FBF7E4; }
-    .contact h3 .fa {
-      font-size: .5em;
-      position: absolute;
-      top: .5em;
-      right: .5em;
-      opacity: .6;
-      cursor: pointer; }
-      .contact h3 .fa:hover {
-        opacity: .9; }
+	overflow: hidden;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	max-height: 100vh; 
+}
+.contact h3 {
+	color: #FBF7E4; 
+}
+.contact h3 .fa {
+	font-size: .5em;
+	position: absolute;
+	top: .5em;
+	right: .5em;
+	opacity: .6;
+	cursor: pointer; 
+}
+.contact h3 .fa:hover {
+	opacity: .9; 
+}
 
-/* CONTACT ME SECTION
---------------------- */
+/* -------------------------------------------------------------*?
+// Contact Me Section //
+/* -------------------------------------------------------------*/
+
 .contact-me-section .contact-info {
-  margin-left: 20em; }
-  @media screen and (max-width: 800px) {
-    .contact-me-section .contact-info {
-      margin-left: 0; } }
-  .contact-me-section .contact-info a {
-    color: #FBF7E4; }
-  .contact-me-section .contact-info p {
-    color: #FBF7E4;
-    font-size: 2em;
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 800; }
-    @media screen and (max-width: 800px) {
-      .contact-me-section .contact-info p {
-        font-size: 2.2em; } }
-    .contact-me-section .contact-info p:hover {
-      color: #FAFAFA; }
-    .contact-me-section .contact-info p i {
-      padding: .5em 1em; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	margin-left: 20em; 
+}
+@media screen and (max-width: 800px) {
+	.contact-me-section .contact-info {
+		margin-left: 0; 
+	} 
+}
+.contact-me-section .contact-info a {
+	color: #FBF7E4; 
+}
+.contact-me-section .contact-info p {
+	color: #FBF7E4;
+	font-size: 2em;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 800; 
+}
+@media screen and (max-width: 800px) {
+	.contact-me-section .contact-info p {
+		font-size: 2.2em; 
+	} 
+}
+.contact-me-section .contact-info p:hover {
+	color: #FAFAFA; 
+}
+.contact-me-section .contact-info p i {
+	padding: .5em 1em; 
+}
